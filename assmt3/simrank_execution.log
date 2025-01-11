@@ -1,0 +1,14 @@
+2024-11-10 23:01:17,103 - INFO - Checkpoint 1: Initializing Neo4j connection
+2024-11-10 23:01:17,104 - INFO - Neo4j connection initialized successfully
+2024-11-10 23:01:17,104 - INFO - Checkpoint 1: Initializing Spark session
+2024-11-10 23:01:18,944 - INFO - Spark session initialized successfully
+2024-11-10 23:01:18,944 - INFO - Checkpoint 2: Loading data
+2024-11-10 23:01:22,921 - INFO - Checkpoint 2: Loaded 564340 citations
+2024-11-10 23:01:22,922 - INFO - Checkpoint 3: Creating Neo4j graph
+2024-11-10 23:01:22,924 - ERROR - Checkpoint 3 failed: Couldn't connect to localhost:7689 (resolved to ()):
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7689)) (reason [Errno 61] Connection refused)
+Failed to establish connection to ResolvedIPv6Address(('::1', 7689, 0, 0)) (reason [Errno 61] Connection refused)
+2024-11-10 23:01:28,464 - INFO - Checkpoint 1: Initializing connections
+2024-11-10 23:01:28,525 - INFO - Checkpoint 1: Connections initialized successfully
+2024-11-10 23:01:28,525 - INFO - Checkpoint 2: Loading data
+2024-11-10 23:01:28,588 - ERROR - Checkpoint 2 failed: [PATH_NOT_FOUND] Path does not exist: file:/Users/parasdhiman/Desktop/assmt/BDA/assmt3/path_to_your_data.json.
